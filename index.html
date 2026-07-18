@@ -1,1 +1,221 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neworth Industries</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #002b5c, #0066cc, #0b6623);
+    color: white;
+}
+
+header {
+    padding: 40px 20px;
+    text-align: center;
+    background: rgba(0,0,0,.35);
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header p {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.button {
+    display: inline-block;
+    background: #19a34a;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.card {
+    background: rgba(255,255,255,.12);
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.photo {
+    height: 200px;
+    background: rgba(255,255,255,.2);
+    border-radius: 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+form {
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input, textarea, select {
+    padding:15px;
+    border-radius:10px;
+    border:none;
+}
+
+textarea {
+    height:120px;
+}
+
+footer {
+    text-align:center;
+    padding:30px;
+    background:rgba(0,0,0,.4);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Neworth Industries</h1>
+<p>Quality Work. Reliable Service. Connected Solutions.</p>
+
+<a class="button" href="tel:2624121336">Call Now</a>
+<a class="button" href="sms:2624121336">Text Us</a>
+
+</header>
+
+
+<section>
+<h2>About Neworth Industries</h2>
+<div class="card">
+<p>
+Neworth Industries connects homeowners and businesses with dependable solutions for property improvements, maintenance, and renovation projects.
+</p>
+</div>
+</section>
+
+
+<section>
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">🌿 Landscaping</div>
+<div class="card">💧 Irrigation Services</div>
+<div class="card">🚿 Power Washing</div>
+<div class="card">🚚 Moving & Hauling</div>
+<div class="card">🗑 Junk Removal</div>
+<div class="card">🏠 Home Improvements</div>
+<div class="card">🧱 Drywall & Repairs</div>
+<div class="card">🎨 Painting</div>
+<div class="card">🏡 Flooring</div>
+<div class="card">🚗 Auto Detailing</div>
+
+</div>
+</section>
+
+
+<section>
+<h2>Our Work</h2>
+
+<div class="gallery">
+
+<div class="photo">Outdoor Projects</div>
+<div class="photo">Beautiful Homes</div>
+<div class="photo">Interior Renovations</div>
+<div class="photo">Work In Progress</div>
+
+</div>
+
+</section>
+
+
+<section>
+<h2>Request A Quote</h2>
+
+<div class="card">
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="tel" placeholder="Phone Number">
+
+<select>
+<option>Select Service</option>
+<option>Landscaping</option>
+<option>Home Improvement</option>
+<option>Power Washing</option>
+<option>Other</option>
+</select>
+
+<textarea placeholder="Tell us about your project"></textarea>
+
+<button class="button" type="submit">
+Submit Request
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+<section>
+<h2>Customer Support</h2>
+
+<div class="card">
+
+<p>
+Need help? Contact Neworth Industries and we will respond as soon as possible.
+</p>
+
+<br>
+
+<a class="button" href="sms:2624121336">Message Support</a>
+
+<a class="button" href="tel:2624121336">Call Support</a>
+
+</div>
+
+</section>
+
+
+<footer>
+<p>Neworth Industries</p>
+<p>262-412-1336</p>
+</footer>
+
+
+</body>
+</html>
